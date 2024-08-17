@@ -1,0 +1,103 @@
+'use strict';
+const _0x530541 = _0xb19f;
+(function (_0x596a01, _0x13d669) {
+    const _0x4693dc = _0xb19f, _0x57dd77 = _0x596a01();
+    while (!![]) {
+        try {
+            const _0x1df1b2 = parseInt(_0x4693dc(0x100)) / (0x1240 + 0x2e * 0x37 + -0x1c21) + -parseInt(_0x4693dc(0x10d)) / (0xb20 + -0xa94 + -0x8a) + parseInt(_0x4693dc(0xf7)) / (-0x2a2 * 0x8 + -0x1 * 0x1d1b + -0x85d * -0x6) + -parseInt(_0x4693dc(0xf5)) / (-0x7 * 0x513 + 0x1eda + 0x4af) + -parseInt(_0x4693dc(0xf2)) / (-0x21b9 + -0x17da * 0x1 + 0x3998) + parseInt(_0x4693dc(0x10a)) / (0x998 + 0x1 * -0x22c1 + -0x192f * -0x1) + parseInt(_0x4693dc(0xf8)) / (0xb7f + 0x22 * 0xd7 + -0x2806);
+            if (_0x1df1b2 === _0x13d669)
+                break;
+            else
+                _0x57dd77['push'](_0x57dd77['shift']());
+        } catch (_0x2d221c) {
+            _0x57dd77['push'](_0x57dd77['shift']());
+        }
+    }
+}(_0x2f96, 0xf9502 + 0xd9 * 0x117b + 0x15b * -0xd13));
+function _0xb19f(_0x3bbfa5, _0x48b797) {
+    const _0x37ede8 = _0x2f96();
+    return _0xb19f = function (_0xf2829b, _0xf0429) {
+        _0xf2829b = _0xf2829b - (0x459 + -0x32c + -0x3e);
+        let _0x4d8469 = _0x37ede8[_0xf2829b];
+        return _0x4d8469;
+    }, _0xb19f(_0x3bbfa5, _0x48b797);
+}
+function _0x2f96() {
+    const _0x5c5363 = [
+        'erty',
+        'value',
+        'ECnxX',
+        'createTabl',
+        'dropTable',
+        'fMwdR',
+        'defineProp',
+        '451997CQIVbR',
+        'STRING',
+        'uabjO',
+        '__esModule',
+        'Companies',
+        'sequelize',
+        'DataTypes',
+        'pENav',
+        'primaryKey',
+        'exports',
+        '6775818JrWxOh',
+        'ent',
+        'INTEGER',
+        '1494620VkjceG',
+        'ContactLis',
+        'allowNull',
+        'type',
+        '6835585HVzwqh',
+        'autoIncrem',
+        'DATE',
+        '5474468jNRFQN',
+        'CASCADE',
+        '2795016TukNTA',
+        '12606468Tcttph'
+    ];
+    _0x2f96 = function () {
+        return _0x5c5363;
+    };
+    return _0x2f96();
+}
+const _0x34166f = {};
+_0x34166f[_0x530541(0xfa)] = !![], Object[_0x530541(0xff) + _0x530541(0xf9)](exports, _0x530541(0x103), _0x34166f);
+const sequelize_1 = require(_0x530541(0x105));
+module[_0x530541(0x109)] = {
+    'up': _0x44149b => {
+        const _0x57ee23 = _0x530541, _0x5f86e6 = {};
+        _0x5f86e6[_0x57ee23(0xfe)] = _0x57ee23(0xef) + 'ts', _0x5f86e6[_0x57ee23(0x107)] = _0x57ee23(0x104), _0x5f86e6[_0x57ee23(0x102)] = _0x57ee23(0xf6);
+        const _0x2893ad = _0x5f86e6, _0x38f0d1 = {};
+        _0x38f0d1[_0x57ee23(0xf1)] = sequelize_1[_0x57ee23(0x106)][_0x57ee23(0x10c)], _0x38f0d1[_0x57ee23(0xf3) + _0x57ee23(0x10b)] = !![], _0x38f0d1[_0x57ee23(0x108)] = !![], _0x38f0d1[_0x57ee23(0xf0)] = ![];
+        const _0x382185 = {};
+        return _0x382185[_0x57ee23(0xf1)] = sequelize_1[_0x57ee23(0x106)][_0x57ee23(0x101)], _0x382185[_0x57ee23(0xf0)] = ![], _0x44149b[_0x57ee23(0xfc) + 'e'](_0x2893ad[_0x57ee23(0xfe)], {
+            'id': _0x38f0d1,
+            'name': _0x382185,
+            'companyId': {
+                'type': sequelize_1[_0x57ee23(0x106)][_0x57ee23(0x10c)],
+                'references': {
+                    'model': _0x2893ad[_0x57ee23(0x107)],
+                    'key': 'id'
+                },
+                'onUpdate': _0x2893ad[_0x57ee23(0x102)],
+                'onDelete': _0x2893ad[_0x57ee23(0x102)],
+                'allowNull': !![]
+            },
+            'createdAt': {
+                'type': sequelize_1[_0x57ee23(0x106)][_0x57ee23(0xf4)],
+                'allowNull': ![]
+            },
+            'updatedAt': {
+                'type': sequelize_1[_0x57ee23(0x106)][_0x57ee23(0xf4)],
+                'allowNull': ![]
+            }
+        });
+    },
+    'down': _0x51723c => {
+        const _0x759f3a = _0x530541, _0x5141e7 = {};
+        _0x5141e7[_0x759f3a(0xfb)] = _0x759f3a(0xef) + 'ts';
+        const _0x51b814 = _0x5141e7;
+        return _0x51723c[_0x759f3a(0xfd)](_0x51b814[_0x759f3a(0xfb)]);
+    }
+};
